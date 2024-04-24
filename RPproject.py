@@ -40,7 +40,7 @@ def Balmer(T, f):
     if T<=10000:
         l = const.c.to(u.nm/u.s).value/f
         if l < 364.5:
-            return 0.01
+            return 0.0001
     return 1
 
 def IMF_T(T):
